@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fabCard"
+    android:layout_width="56dp"
+    android:layout_height="56dp"
+    app:cardCornerRadius="28dp"
+    app:cardBackgroundColor="#FF5722"
+    app:cardElevation="8dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:src="@android:drawable/ic_menu_compass"
+        android:tint="#FFFFFF" />
+
+</androidx.cardview.widget.CardView>
