@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnVpnPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Conceder permiso VPN" />
+
+    <Button
+        android:id="@+id/btnStartOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Mostrar botón flotante" />
+
+    <Button
+        android:id="@+id/btnStopOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ocultar botón (restaura la red)" />
+
+    <Button
+        android:id="@+id/btnTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Solicitud HTTP de prueba" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Resultado aparecerá aquí"
+        android:textSize="16sp" />
+</LinearLayout>
